@@ -1,0 +1,76 @@
+0 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install', '-g', 'n' ]
+1 info using npm@8.3.0
+2 info using node@v17.3.1
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 25ms
+6 timing config:load:builtin Completed in 26ms
+7 timing config:load:cli Completed in 13ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 21ms
+10 timing config:load:file:/root/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 2ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 70ms
+18 timing npm:load:configload Completed in 70ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing config:load:flatten Completed in 5ms
+21 timing npm:load:display Completed in 9ms
+22 verbose logfile /root/.npm/_logs/2022-01-17T09_07_53_026Z-debug-0.log
+23 timing npm:load:logFile Completed in 12ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 94ms
+27 timing arborist:ctor Completed in 2ms
+28 timing idealTree:init Completed in 9ms
+29 timing idealTree:userRequests Completed in 3ms
+30 silly idealTree buildDeps
+31 silly fetch manifest n@*
+32 http fetch GET 200 https://registry.npmjs.org/n 181ms (cache revalidated)
+33 silly placeDep ROOT n@8.0.2 OK for:  want: *
+34 timing idealTree:#root Completed in 201ms
+35 timing idealTree:node_modules/n Completed in 0ms
+36 timing idealTree:buildDeps Completed in 203ms
+37 timing idealTree:fixDepFlags Completed in 1ms
+38 timing idealTree Completed in 219ms
+39 timing reify:loadTrees Completed in 242ms
+40 timing reify:diffTrees Completed in 4ms
+41 silly reify mark retired [ '/usr/local/lib/node_modules/n', '/usr/local/bin/n' ]
+42 silly reify moves {
+42 silly reify   '/usr/local/lib/node_modules/n': '/usr/local/lib/node_modules/.n-oBR4I52F',
+42 silly reify   '/usr/local/bin/n': '/usr/local/bin/.n-V4z1q9jq'
+42 silly reify }
+43 timing reify:retireShallow Completed in 40ms
+44 timing reify:createSparse Completed in 5ms
+45 timing reify:loadBundles Completed in 0ms
+46 silly audit bulk request { n: [ '8.0.2' ] }
+47 timing reifyNode:node_modules/n Completed in 87ms
+48 timing reify:unpack Completed in 88ms
+49 timing reify:unretire Completed in 0ms
+50 timing build:queue Completed in 1ms
+51 timing build:link:node_modules/n Completed in 4ms
+52 timing build:link Completed in 4ms
+53 timing build:deps Completed in 5ms
+54 timing build Completed in 6ms
+55 timing reify:build Completed in 6ms
+56 timing reify:trash Completed in 5ms
+57 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 207ms
+58 timing auditReport:getReport Completed in 208ms
+59 silly audit report {}
+60 timing auditReport:init Completed in 0ms
+61 timing reify:audit Completed in 210ms
+62 timing reify Completed in 662ms
+63 silly CHANGE node_modules/n
+64 timing command:install Completed in 672ms
+65 notice
+65 notice New [32mpatch[39m version of npm available! [31m8.3.0[39m -> [32m8.3.1[39m
+65 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v8.3.1[39m
+65 notice Run [32mnpm install -g npm@8.3.1[39m to update!
+65 notice
+66 verbose exit 0
+67 timing npm Completed in 1219ms
+68 info ok
